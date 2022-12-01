@@ -78,6 +78,12 @@ button {
   color: #62c370;
 }
 
+body {
+  background-image: url(../assets/img/background.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
 .box {
   position: absolute;
   width: 627px;
