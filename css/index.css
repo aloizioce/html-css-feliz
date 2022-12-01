@@ -109,3 +109,33 @@ button {
   text-shadow: 4px 4px 0px #000000;
   padding-top: 20px;
 }
+
+.button_section {
+  position: absolute;
+  width: 170px;
+  height: 60px;
+  left: 126px;
+  top: 435px;
+  transition: transform 100ms linear;
+}
+
+.button_section:hover {
+  transform: scale(1.1);
+  background-color: #fff;
+  color: #62c370;
+}
+
+.button_section_two {
+  position: absolute;
+  width: 170px;
+  height: 60px;
+  left: 408px;
+  top: 435px;
+  transition: transform 100ms linear;
+}
+
+.button_section_two:hover {
+  transform: scale(1.1);
+  background-color: #fff;
+  color: #62c370;
+}
