@@ -58,6 +58,8 @@ nav {
 button {
   display: inline-block;
   font-family: 'Fira Code', Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
   color: #fff;
   background-color: #62c370;
   box-shadow: 5px 5px 0px #000000;
@@ -74,4 +76,36 @@ button {
   transform: scale(1.1);
   background-color: #fff;
   color: #62c370;
+}
+
+.box {
+  position: absolute;
+  width: 627px;
+  height: 184px;
+  left: 36px;
+  top: 213px;
+  box-shadow: 10px 10px 0px #000000;
+  background: #62c370;
+}
+
+.box h1 {
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Fira Code', Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  font-weight: 500px;
+  color: #7c5e99;
+  text-shadow: 4px 4px 0px #000000;
+  padding-top: 20px;
+}
+
+.box h2 {
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Fira Code', Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  font-weight: 500px;
+  color: #fff;
+  text-shadow: 4px 4px 0px #000000;
+  padding-top: 20px;
 }
