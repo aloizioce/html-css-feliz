@@ -1,31 +1,30 @@
 .box {
   position: absolute;
-  width: 627px;
-  height: 184px;
   left: 36px;
   top: 213px;
+  display: inline-block;
   box-shadow: 10px 10px 0px #000000;
   background: #62c370;
+  text-align: center;
+  padding-top: 42px;
+  padding-bottom: 42px;
+  padding-left: 44px;
+  padding-right: 44px;
 }
 
 .box h1 {
-  display: flex;
-  justify-content: space-around;
   font-family: 'Fira Code', Arial, Helvetica, sans-serif;
   font-size: 40px;
   font-weight: 500px;
   color: #7c5e99;
   text-shadow: 4px 4px 0px #000000;
-  padding-top: 20px;
+  margin-bottom: 28px;
 }
 
 .box h2 {
-  display: flex;
-  justify-content: space-around;
   font-family: 'Fira Code', Arial, Helvetica, sans-serif;
   font-size: 40px;
   font-weight: 500px;
   color: #fff;
   text-shadow: 4px 4px 0px #000000;
-  padding-top: 20px;
 }
