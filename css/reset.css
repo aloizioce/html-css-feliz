@@ -4,3 +4,12 @@ h2,
 h3 {
   margin: 0;
 }
+
+body {
+  font-family: 'Fira Code', Arial, Helvetica, sans-serif;
+}
+
+button {
+  border: none;
+  font-family: inherit;
+}

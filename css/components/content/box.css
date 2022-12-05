@@ -1,5 +1,4 @@
 .box {
-  position: absolute;
   left: 36px;
   top: 213px;
   display: inline-block;
@@ -12,7 +11,7 @@
   padding-right: 44px;
 }
 
-.box h1 {
+.box .title {
   font-family: 'Fira Code', Arial, Helvetica, sans-serif;
   font-size: 40px;
   font-weight: 500px;
@@ -21,7 +20,7 @@
   margin-bottom: 28px;
 }
 
-.box h2 {
+.box .subtitle {
   font-family: 'Fira Code', Arial, Helvetica, sans-serif;
   font-size: 40px;
   font-weight: 500px;

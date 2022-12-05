@@ -1,4 +1,4 @@
-header {
+.header {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -10,20 +10,7 @@ header {
   padding-bottom: 10px;
 }
 
-img {
-  width: 60px;
-  height: 60px;
-}
-
-a::before {
-  content: '';
-  background-color: #62c370;
-  width: 10px;
-  height: 10px;
-  margin: 10px;
-}
-
-a {
+.menu {
   display: inline-flex;
   align-items: center;
   color: #fff;
@@ -34,26 +21,21 @@ a {
   margin: 30px;
 }
 
+.menu::before {
+  content: '';
+  background-color: #62c370;
+  width: 10px;
+  height: 10px;
+  margin: 10px;
+}
+
 nav {
   text-align: right;
 }
 
-#button {
-  display: inline-block;
-  background-color: #62c370;
-  box-shadow: 5px 5px 0px #000000;
-  padding-top: 18px;
-  padding-right: 20px;
-  padding-left: 20px;
-  padding-bottom: 18px;
-  margin-right: 0;
-}
-
 button {
   display: inline-block;
-  font-family: 'Fira Code', Arial, Helvetica, sans-serif;
   font-size: 20px;
-  font-weight: 500;
   color: #fff;
   background-color: #62c370;
   box-shadow: 5px 5px 0px #000000;

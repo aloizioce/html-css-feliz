@@ -1,10 +1,13 @@
 .button_section {
-  position: absolute;
-  width: 170px;
-  height: 60px;
-  left: 126px;
-  top: 435px;
+  display: inline-block;
+  background-color: #62c370;
+  box-shadow: 5px 5px 0px #000000;
+  padding: 18px, 20px;
+  margin-right: 0;
+  cursor: pointer;
   transition: transform 100ms linear;
+  font-size: 20px;
+  color: #fff;
 }
 
 .button_section:hover {
@@ -14,12 +17,15 @@
 }
 
 .button_section_two {
-  position: absolute;
-  width: 170px;
-  height: 60px;
-  left: 408px;
-  top: 435px;
+  display: inline-block;
+  background-color: #62c370;
+  box-shadow: 5px 5px 0px #000000;
+  padding: 18px, 20px;
+  margin-right: 0;
+  cursor: pointer;
   transition: transform 100ms linear;
+  font-size: 20px;
+  color: #fff;
 }
 
 .button_section_two:hover {
