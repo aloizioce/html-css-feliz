@@ -11,8 +11,11 @@
   padding: 30px;
 }
 
-.banner_two p {
+.banner_two .box_skills {
   color: #fff;
   font-family: 'Fira Code', Arial, Helvetica, sans-serif;
   padding: 30px;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
 }
