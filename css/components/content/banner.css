@@ -4,7 +4,7 @@
   background-repeat: no-repeat;
   background-size: 100%;
   height: 800px;
-  border-bottom: 10px solid #7c5e99;
+  border-bottom: 10px solid #62c370;
   padding-left: 90px;
   padding-top: 115px;
 }
@@ -21,8 +21,4 @@
 .banner .navegation {
   display: flex;
   justify-content: space-around;
-}
-
-section {
-  background-color: #7c5e99;
 }
