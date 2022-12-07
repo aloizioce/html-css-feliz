@@ -17,85 +17,83 @@
   padding: 30px;
   list-style: none;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
 .banner_two .html {
-  border: orangered 20px solid;
-  width: 430px;
-  height: 90px;
+  /* border: orangered 20px solid; */
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  margin: 20px;
+  margin: 38px;
 }
 
 .banner_two .css {
-  border: blue 20px solid;
+  /* border: blue 20px solid; */
   width: 430px;
   height: 90px;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  margin: 20px;
+  margin: 40px;
 }
 
 .banner_two .javascript {
-  border: gold 20px solid;
+  /* border: gold 20px solid; */
   width: 430px;
   height: 90px;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  margin: 20px;
+  margin: 40px;
 }
 
 .banner_two .react {
-  border: purple 20px solid;
+  /* border: purple 20px solid; */
   width: 430px;
   height: 90px;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  margin: 20px;
+  margin: 40px;
 }
 
 .banner_two .nodejs {
-  border: orangered 20px solid;
+  /* border: orangered 20px solid; */
   width: 430px;
   height: 90px;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  margin: 20px;
+  margin: 40px;
 }
 
 .banner_two .tdd {
-  border: blue 20px solid;
+  /* border: blue 20px solid; */
   width: 430px;
   height: 90px;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  margin: 20px;
+  margin: 40px;
 }
 
 .banner_two .rest_api {
-  border: gold 20px solid;
+  /* border: gold 20px solid; */
   width: 430px;
   height: 90px;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  margin: 20px;
+  margin: 40px;
 }
 
 .banner_two .ux {
-  border: purple 20px solid;
+  /* border: purple 20px solid; */
   width: 430px;
   height: 90px;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  margin: 20px;
+  margin: 40px;
 }
