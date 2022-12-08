@@ -28,6 +28,11 @@
   margin: 38px;
 }
 
+.banner_two .skills_list {
+  /* border: orangered 20px solid; */
+  margin-left: 25px;
+  margin-top: 5px;
+}
 .banner_two .css {
   /* border: blue 20px solid; */
   width: 430px;
