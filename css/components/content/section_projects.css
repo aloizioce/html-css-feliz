@@ -1,0 +1,31 @@
+.section_projects {
+  background-color: #000;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  border-bottom: 10px solid #62c370;
+}
+
+.exemple {
+  text-align: center;
+  color: #fff;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.exemple-item {
+  display: inline-block;
+  width: 280px;
+  height: 280px;
+}
+
+.item_first {
+  background-color: #c36262;
+}
+
+.item_second {
+  background-color: #6293c3;
+}
+
+.item_third {
+  background-color: #c3c362;
+}
