@@ -6,6 +6,8 @@
 }
 
 .exemple {
+  display: flex;
+  justify-content: space-around;
   text-align: center;
   color: #fff;
   padding-top: 50px;
@@ -19,13 +21,16 @@
 }
 
 .item_first {
-  background-color: #c36262;
+  background-color: #7c5e99;
+  box-shadow: 10px 10px 0px #fff;
 }
 
 .item_second {
   background-color: #6293c3;
+  box-shadow: 10px 10px 0px #fff;
 }
 
 .item_third {
   background-color: #c3c362;
+  box-shadow: 10px 10px 0px #fff;
 }
