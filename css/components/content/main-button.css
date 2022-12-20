@@ -1,4 +1,4 @@
-.button_section {
+.main-button_section {
   display: inline-block;
   background-color: #62c370;
   box-shadow: 5px 5px 0px #000000;
@@ -10,13 +10,13 @@
   color: #fff;
 }
 
-.button_section:hover {
+.main-button_section:hover {
   transform: scale(1.1);
   background-color: #fff;
   color: #62c370;
 }
 
-.button_section_two {
+.main-button_section_two {
   display: inline-block;
   background-color: #62c370;
   box-shadow: 5px 5px 0px #000000;
@@ -28,7 +28,7 @@
   color: #fff;
 }
 
-.button_section_two:hover {
+.main-button_section_two:hover {
   transform: scale(1.1);
   background-color: #fff;
   color: #62c370;

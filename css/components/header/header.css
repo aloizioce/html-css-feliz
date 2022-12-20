@@ -28,7 +28,7 @@ button {
   transition: transform 100ms linear;
 }
 
-.button:hover {
+.main-button:hover {
   transform: scale(1.1);
   background-color: #fff;
   color: #62c370;
