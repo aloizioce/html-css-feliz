@@ -1,6 +1,5 @@
 .slider {
   overflow: hidden;
-  position: relative;
   margin-top: 66px;
   text-align: center;
 }
@@ -16,7 +15,7 @@
 }
 
 .slider > .slider-content > .slider-item {
-  flex: 0 0 auto;
+  flex: none;
   width: 100%;
 }
 
