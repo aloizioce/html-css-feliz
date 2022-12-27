@@ -1,4 +1,4 @@
-.slider {
+.main-slider {
   overflow: hidden;
   margin-top: 66px;
   text-align: center;
@@ -7,29 +7,29 @@
 .slider-item {
   margin-top: 66px;
 }
-.slider > .slider-content {
+.main-slider > .slider-content {
   display: flex;
   flex-wrap: nowrap;
   width: 100%;
   transition: all 500ms ease;
 }
 
-.slider > .slider-content > .slider-item {
+.main-slider > .slider-content > .slider-item {
   flex: none;
   width: 100%;
 }
 
-.slider > input:nth-child(1):checked ~ .slider-content {
+.main-slider > input:nth-child(1):checked ~ .slider-content {
   transform: translateX(0%);
 }
 
-.slider > input:nth-child(2):checked ~ .slider-content {
+.main-slider > input:nth-child(2):checked ~ .slider-content {
   transform: translateX(-100%);
 }
-.slider > input:nth-child(3):checked ~ .slider-content {
+.main-slider > input:nth-child(3):checked ~ .slider-content {
   transform: translateX(-200%);
 }
 
-.slider > input:nth-child(4):checked ~ .slider-content {
+.main-slider > input:nth-child(4):checked ~ .slider-content {
   transform: translateX(-300%);
 }

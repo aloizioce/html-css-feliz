@@ -8,6 +8,7 @@
 .main-paragrapher {
   font-family: 'Fira Code', Arial, Helvetica, sans-serif;
   font-size: 18px;
+  line-height: 1.9;
   text-align: justify;
   color: #fff;
   margin-top: 100px;
