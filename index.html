@@ -33,6 +33,9 @@
     <link rel="stylesheet" href="css/components/content/skill-tec.css" />
     <link rel="stylesheet" href="css/components/content/wrapper-skill.css" />
     <link rel="stylesheet" href="css/components/content/progress-bar.css" />
+    <link rel="stylesheet" href="css/components/content/button-arrow.css" />
+    <link rel="stylesheet" href="css/components/content/node-card.css" />
+    <link rel="stylesheet" href="css/components/content/main-carousel.css" />
   </head>
   <body>
     <header class="main-header">
@@ -59,7 +62,6 @@
     </section>
     <section class="main-section">
       <h2 class="main_title _second">Skills</h2>
-
       <div class="wrapper-skill">
         <article class="skill-tec">
           <img class="icon" src="assets/img/ico_html5.png" alt="ico_html5" />
@@ -143,7 +145,6 @@
         </a>
       </ul>
     </section>
-
     <section class="main-section_about">
       <h2 class="main_title _second">Sobre</h2>
       <section class="main-slider">
@@ -151,20 +152,23 @@
         <input name="slide" type="radio" checked />
         <input name="slide" type="radio" />
         <input name="slide" type="radio" />
-
-        <div class="slider-content">
+        <section class="slider-content">
           <div class="slider-item">
             <img src="assets/img/brazil.png" alt="Bandeira do Brasil" />
           </div>
           <div class="slider-item">
-            <img src="assets/img/united-states.png" alt="Bandeira dos Estados Unidos" />
-        </div>
+            <img
+              src="assets/img/united-states.png"
+              alt="Bandeira dos Estados Unidos"
+            />
+          </div>
           <div class="slider-item">
             <img src="assets/img/argentina.png" alt="Bandeira da Argentina" />
           </div>
           <div class="slider-item">
             <img src="assets/img/uruguay.png" alt="Bandeira do Uruguai" />
           </div>
+        </section>
       </section>
       <p class="main-paragrapher">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus amet
@@ -175,6 +179,69 @@
         numquam! Neque obcaecati accusamus dolorem eum, voluptatum ab
         repudiandae inventore fuga at eos.
       </p>
+      <section class="main-carousel">
+        <button class="button-arrow -left">
+          <span class="content">Avançar</span>
+        </button>
+        <figure class="node-card">
+          <figcaption class="title">Brasil</figcaption>
+          <div class="logo">
+            <img
+              src="assets/img/brazil.png"
+              width="138px"
+              height="110px"
+              alt="Bandeira do Brasil"
+            />
+          </div>
+        </figure>
+        <figure class="node-card">
+          <figcaption class="title">Argentina</figcaption>
+          <div class="logo">
+            <img
+              src="assets/img/argentina.png"
+              width="138px"
+              height="110px"
+              alt="Bandeira da Argentina"
+            />
+          </div>
+        </figure>
+        <figure class="node-card">
+          <figcaption class="title">Uruguai</figcaption>
+          <div class="logo">
+            <img
+              src="assets/img/uruguay.png"
+              width="138px"
+              height="110px"
+              alt="Bandeira do Uruguai"
+            />
+          </div>
+        </figure>
+        <figure class="node-card">
+          <figcaption class="title">Estados Unidos</figcaption>
+          <div class="logo">
+            <img
+              src="assets/img/united-states.png"
+              width="138px"
+              height="110px"
+              alt="Bandeira dos Estados Unidos"
+            />
+          </div>
+        </figure>
+        <figure class="node-card">
+          <figcaption class="title">Peru</figcaption>
+          <div class="logo">
+            <img
+              src="assets/img/peru.png"
+              width="138px"
+              height="110px"
+              alt="Bandeira do Peru"
+            />
+          </div>
+        </figure>
+        <button class="button-arrow -right">
+          <span class="content">Voltar</span>
+        </button>
+      </section>
     </section>
   </body>
 </html>
