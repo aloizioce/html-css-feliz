@@ -22,8 +22,8 @@ button {
   margin-right: 0;
   width: 170px;
   height: 60px;
-  left: 1250px;
-  top: 10px;
+  left: 1444px;
+  top: 100px;
   cursor: pointer;
   transition: transform 100ms linear;
 }

@@ -19,3 +19,7 @@ ol,
 li {
   list-style: none;
 }
+
+figure {
+  margin: 0;
+}
