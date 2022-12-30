@@ -8,6 +8,16 @@
   margin-top: 100px;
 }
 
+.main-carousel::after {
+  position: absolute;
+  content: '';
+  display: block;
+  left: 0;
+  top: 38px;
+  height: 5px;
+  width: 100%;
+  background-color: black;
+}
 .main-carousel .button-arrow {
   position: absolute;
   bottom: 70px;
