@@ -6,6 +6,7 @@
   padding-right: 85px;
   margin-bottom: 100px;
   margin-top: 100px;
+  overflow: hidden;
 }
 
 .main-carousel::after {
@@ -37,6 +38,17 @@
 .main-carousel .button-arrow.-left {
   left: 15px;
 }
-main-carousel .button-arrow.-right {
+.main-carousel .button-arrow.-right {
   right: 15px;
+}
+
+.main-carousel .itens {
+  width: 100%;
+  overflow: hidden;
+}
+
+.main-carousel .elements {
+  display: flex;
+  justify-content: space-between;
+  transition: transform 100ms ease-in-out;
 }
